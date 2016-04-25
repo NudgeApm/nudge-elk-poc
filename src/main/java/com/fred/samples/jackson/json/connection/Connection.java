@@ -14,10 +14,6 @@ import java.util.Map.Entry;
 
 public class Connection {
 
-	public enum EntityType {
-		APP, TRANSACTION
-	}
-
 	public static final String DEFAULT_URL = "https://monitor.nudge-apm.com/";
 
 	public static final String DATE_FORMAT = "yyyy-MM-dd_HH:mm";
